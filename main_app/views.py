@@ -26,7 +26,7 @@ def cheeses_index(request):
 @login_required
 def cheeses_detail(request, cheese_id):
   cheese = Cheese.objects.get(id=cheese_id)
-  # instantiate FeedingForm to be rendered in the template
+
   wine_form = WineForm()
 
 
@@ -58,18 +58,17 @@ def assoc_dish(request, cheese_id, dish_id):
 def signup(request):
   error_message = ''
   if request.method == 'POST':
-    # This is how to create a 'user' form object
-    # that includes the data from the browser
+
     form = UserCreationForm(request.POST)
     if form.is_valid():
-      # This will add the user to the database
+
       user = form.save()
-      # This is how we log a user in via code
+
       login(request, user)
       return redirect('index')
     else:
       error_message = 'Invalid sign up - try again'
-  # A bad POST or a GET request, so render signup.html with an empty form
+
   form = UserCreationForm()
   context = {'form': form, 'error_message': error_message}
   return render(request, 'registration/signup.html', context)
@@ -84,7 +83,7 @@ class CheeseCreate(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
    
         form.instance.user = self.request.user  
-    # Let the CreateView do its job as usual
+
         return super().form_valid(form)
 
 class CheeseUpdate(LoginRequiredMixin, UpdateView):

@@ -14,10 +14,13 @@ class Dish(models.Model):
     name = models.CharField(max_length=50)
     type = models.CharField(max_length=50)
     protien = models.CharField(max_length=50)
-    paring = models.CharField(max_length=50)
+    pairing = models.CharField(max_length=50)
 
     def get_absolute_url(self):
         return reverse('dishes_detail', kwargs={'pk': self.id})
+
+    def __str__(self):
+        return self.name
 
 class Cheese(models.Model):
     name = models.CharField(max_length=100)
@@ -48,6 +51,8 @@ class Wine(models.Model):
     def __str__(self):
         return f"{self.get_wine_display()} on {self.date}"
 
+  #  def __str__(self):
+   #     return f"{self.get_wine_display()} on {self.date}"
     # change the default sort
     class Meta:
         ordering = ['-date']
