@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from datetime import date
 from django.contrib.auth.models import User
 
 WINES = (
@@ -12,8 +13,8 @@ WINES = (
 class Dish(models.Model):
     name = models.CharField(max_length=50)
     type = models.CharField(max_length=50)
-    protien = models.Charfield(max_length=50)
-    paring = models.Charfield(max_length=50)
+    protien = models.CharField(max_length=50)
+    paring = models.CharField(max_length=50)
 
     def get_absolute_url(self):
         return reverse('dishes_detail', kwargs={'pk': self.id})
@@ -21,7 +22,7 @@ class Dish(models.Model):
 class Cheese(models.Model):
     name = models.CharField(max_length=100)
     origin = models.CharField(max_length=100)
-    flavor = models.Charfield(max_length=100)
+    flavor = models.CharField(max_length=100)
     description = models.TextField(max_length=250)
     dishes = models.ManyToManyField(Dish)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -34,7 +35,7 @@ class Cheese(models.Model):
         return reverse('detail', kwargs={'cheese_id': self.id})
 
 class Wine(models.Model):
-    year = models.DateField('Bottle Date')
+    date = models.DateField('Bottle Date')
     wine = models.CharField(
         max_length=1, 
         choices=WINES, 

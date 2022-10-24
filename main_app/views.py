@@ -18,7 +18,7 @@ def about(request):
     return render(request, 'about.html')
 
 @login_required
-def cheese_index(request):
+def cheeses_index(request):
     cheeses = Cheese.objects.filter(user=request.user)
   
     return render(request, 'cheeses/index.html', { 'cheeses': cheeses })

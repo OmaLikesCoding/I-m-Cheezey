@@ -4,4 +4,4 @@ from .models import Wine
 class WineForm(ModelForm):
   class Meta:
     model = Wine
-    fields = ('year', 'wine')
+    fields = ('date', 'wine')
