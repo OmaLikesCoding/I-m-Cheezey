@@ -3,11 +3,11 @@
 {% block content %}
 
 <h1>Dishes List</h1>
-{% for toy in object_list %}
+{% for dish in object_list %}
 <div class="card">
     <a href="{% url 'dishes_detail' dish.id %}">
         <div class="card-content">
-            <span class="card-title">A <span class="{{ dish.type }}-text"></span> {{ dish.name }}</span>
+            <span class="card-title"> <span class="{{ dish.type }}-text"></span> {{ dish.name }}</span>
         </div>
     </a>
 </div>

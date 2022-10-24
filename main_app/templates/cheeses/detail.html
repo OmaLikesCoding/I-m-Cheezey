@@ -1,12 +1,12 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1>Cat Details</h1>
+<h1>All The Cheezes</h1>
 
 <div class="row">
     <div class="col s6">
         <div class="card">
             <div class="card-content">
-                <span class="card-title">{{ cat.name }}</span>
+                <span class="card-title">{{ cheese.name }}</span>
                 <p>Cheese: {{ cheese.type }}</p>
                 <p>Description: {{ cheese.description }}</p>
                
@@ -61,11 +61,11 @@
     </div>
 
 
-    <!-- Available toys will come after this line -->
+    <!-- Available dishes will come after this line -->
     <div class="col s6">
         <h3>Available Dishes</h3>
         {% if dishes.count %}
-        {% for dish in toys.dishes %}
+        {% for dish in cheeses.dishes %}
         <div class="card">
             <div class="card-content">
                 <span class="card-title">
@@ -73,7 +73,7 @@
                 </span>
             </div>
             <div class="card-action">
-                <form action="{% url 'assoc_toy' cat.id toy.id %}" method="post">
+                <form action="{% url 'assoc_cheese' cheese.id cheese.id %}" method="post">
                     {% csrf_token %}
                     <button type="submit" class="btn">Add</button>
                 </form>
@@ -96,7 +96,7 @@
     });
 
     // add additional JS to initialize select below
-    var selectEl = document.getElementById('id_meal');
+    var selectEl = document.getElementById('id_wine');
     M.FormSelect.init(selectEl);
 </script>
 {% endblock %}

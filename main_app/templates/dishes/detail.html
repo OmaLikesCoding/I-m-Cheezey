@@ -2,13 +2,13 @@
 
 {% block content %}
 
-<h1>Toy Details</h1>
+<h1>Dish Details</h1>
 
 
 <div class="card">
     <a href="{% url 'dishes_detail' dish.id %}">
         <div class="card-content">
-            <span class="card-title">A <span class="{{ dish.type.lower }}-text">{{ toy.type }}</span> {{ dish.name }}</span>
+            <span class="card-title"> Dish Type: <span class="{{ dish.type.lower }}-text">{{ dish.type }}</span> Dish Name: {{ dish.name }}</span>
         </div>
         <div class="card-action">
             <a href="{% url 'dishes_update' dish.id %}">Edit</a>
