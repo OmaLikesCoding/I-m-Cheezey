@@ -92,7 +92,7 @@ class CheeseUpdate(LoginRequiredMixin, UpdateView):
 
 class CheeseDelete(LoginRequiredMixin, DeleteView):
     model = Cheese
-    success_url = '/cheese/'
+    success_url = '/cheeses/'
 
 class DishCreate(LoginRequiredMixin, CreateView):
     model = Dish
