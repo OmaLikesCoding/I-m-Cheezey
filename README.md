@@ -1,7 +1,7 @@
 # Im Cheezey
 ![ImCheezey1 (8 × 4 in)](https://user-images.githubusercontent.com/77770242/197863676-796b6d87-d92f-4696-820e-7c1845fb1e7c.gif)
 
-I'm Cheezey is a interavtive digital platform for the wine and cheese lover in you. Users will be able enjoy and utilize the full functionality of our Django Powered App. From your favorite cheezey dishes to the wines that go with them, you can now add and organize your cheezey love. Be cheezey with us here at I'm Cheezey <3 
+I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in you. Users will be able enjoy and utilize the full functionality of our Django Powered App. From your favorite cheezey dishes to the wines that go with them, you can now add and organize your cheezey love. Be cheezey with us here at I'm Cheezey <3 
 
 ## Table of Contents
 * [Technologies Used](#technologiesused)
