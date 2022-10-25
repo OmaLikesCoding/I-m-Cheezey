@@ -34,18 +34,12 @@
                     <li><a href="{% url 'index' %}">View All The Cheezes</a></li>
                     <li><a href="{% url 'logout' %}">Log Out</a></li>
                     {% else %}
-                    <!-- <li><a href="{% url 'login' %}">Log In</a></li> -->
+          
                     <li><a href="{% url 'signup' %}">Sign Up</a></li>
                     <li><a href="{% url 'login' %}">Log In</a></li>
                     {% endif %}
                   </ul>
-                <!-- <ul class="right">
-                    <li><a href="{% url 'about' %}">About</a></li>
-                    <li><a href="{% url 'index' %}">View All The Cheezes</a></li>
-                    <li><a href="{% url 'cheeses_create' %}">Add A Cheeze </a></li>
-                    <li><a href="{% url 'dishes_create' %}">Add Your Dish</a></li>
-                    <li><a href="{% url 'dishes_index' %}">View All Dishes</a></li>
-                </ul> -->
+        
             </div>
         </nav>
     </header>
