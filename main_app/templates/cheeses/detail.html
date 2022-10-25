@@ -7,9 +7,12 @@
         <div class="card">
             <div class="card-content">
                 <span class="card-title">{{ cheese.name }}</span>
-                <p>Cheese: {{ cheese.type }}</p>
+                <p>Cheese: {{ cheese.name }}</p>
                 <p>Description: {{ cheese.description }}</p>
-               
+                <p>Description: {{ cheese.flavor }}</p>
+                <p>Description: {{ cheese.origin }}</p>
+                
+
             </div>
             <div class="card-action">
                 <a href="{% url 'cheeses_update' cheese.id %}">Edit</a>
@@ -51,7 +54,7 @@
             <div class="card-content">
                 <span class="card-title">
                     A <span class="{{ dish.type.lower }}-text">
-                        {{ dish.type }}</span> {{ dish.name }}
+                        {{ dish.origin }}</span> {{ dish.name }}
                 </span>
             </div>
         </div>
@@ -65,15 +68,15 @@
     <div class="col s6">
         <h3>Available Dishes</h3>
         {% if dishes.count %}
-        {% for dish in cheeses.dishes %}
+        {% for dish in dishes.all %}
         <div class="card">
             <div class="card-content">
                 <span class="card-title">
-                    A <span class="{{ dishes.type }}-text">{{ dish.type }}</span> {{ dish.name }}
+                    A <span class="{{ dish.type }}-text">{{ dish.type }}</span> {{ dish.name }}
                 </span>
             </div>
             <div class="card-action">
-                <form action="{% url 'assoc_cheese' cheese.id cheese.id %}" method="post">
+                <form action="{% url 'assoc_dish' cheese.id dish.id %}" method="post">
                     {% csrf_token %}
                     <button type="submit" class="btn">Add</button>
                 </form>

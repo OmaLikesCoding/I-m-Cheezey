@@ -7,13 +7,10 @@
     <a href="{% url 'detail' cheese.id %}">
         <div class="card-content">
             <span class="card-title">{{ cheese.name }}</span>
-            <p>Type: {{ cheese.type }}</p>
+            <p>Flavor Profile: {{ cheese.flavor }}</p>
             <p>Description: {{ cheese.description }}</p>
-            {% if cheese.age > 0 %}
-            <p>Origin Location: {{ cheese.Origin }}</p>
-            {% else %}
-            <p>Origin: Unknown</p>
-            {% endif %}
+            <p>Origin Location: {{ cheese.origin }}</p>
+            <p>Associated Dishes: {{ cheese.dishes }}</p>
         </div>
     </a>
 </div>

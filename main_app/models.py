@@ -6,14 +6,14 @@ from django.contrib.auth.models import User
 WINES = (
     ('R', 'Red Wine'),
     ('W', 'White Wine'),
-    ('S', 'Sparling Wine'),
+    ('S', 'Sparkling Wine'),
     ('D', 'Dessert Wine'),
 )
 
 class Dish(models.Model):
     name = models.CharField(max_length=50)
     type = models.CharField(max_length=50)
-    protien = models.CharField(max_length=50)
+    protein = models.CharField(max_length=50)
     pairing = models.CharField(max_length=50)
 
     def get_absolute_url(self):
@@ -30,7 +30,7 @@ class Cheese(models.Model):
     dishes = models.ManyToManyField(Dish)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     
-    # changes to instance methods do not require re-generation / running of migrations
+    # changes to instance 
     def __str__(self):
         return self.name
     

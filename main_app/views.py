@@ -51,7 +51,7 @@ def add_wine(request, cheese_id):
 @login_required
 def assoc_dish(request, cheese_id, dish_id):
 
-   Cheese.objects.get(id=cheese_id).dish.add(cheese_id)
+   Cheese.objects.get(id=cheese_id).dishes.add(dish_id)
    return redirect('detail', cheese_id=cheese_id)
 
 
@@ -88,7 +88,7 @@ class CheeseCreate(LoginRequiredMixin, CreateView):
 
 class CheeseUpdate(LoginRequiredMixin, UpdateView):
     model = Cheese
-    fields = ('origin', 'description', 'flavor')
+    fields = ('name', 'origin', 'description', 'flavor')
 
 class CheeseDelete(LoginRequiredMixin, DeleteView):
     model = Cheese
@@ -96,11 +96,11 @@ class CheeseDelete(LoginRequiredMixin, DeleteView):
 
 class DishCreate(LoginRequiredMixin, CreateView):
     model = Dish
-    fields = ('name', 'type', 'protien', 'pairing')
+    fields = ('name', 'type', 'protein', 'pairing')
 
 class DishUpdate(LoginRequiredMixin, UpdateView):
     model = Dish
-    fields = ('name', 'type', 'protien', 'pairing')
+    fields = ('name', 'type', 'protein', 'pairing')
 
 class DishDelete(LoginRequiredMixin, DeleteView):
     model = Dish
