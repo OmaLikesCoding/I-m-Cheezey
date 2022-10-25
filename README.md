@@ -10,7 +10,7 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 * [Project Next Steps](#nextsteps)
 * [Deployed App](#deployment)
 * [Our Github Repositories:](#github)
-* [About Team Panther.js](#team)
+* [About Oma.Likes.Coding](#team)
 
 ## <a name="technologiesused"></a>Technologies Used
 - Django
