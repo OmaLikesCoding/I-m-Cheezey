@@ -1,20 +1,4 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-}
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
 
-body {
-    background-color: whitesmoke;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex-grow: 1;
-}
-
-footer {
-    padding-top: 0;
-    text-align: right;
-}

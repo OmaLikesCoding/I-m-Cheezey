@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 </head>
 
-<body>
+<body class="full site">
     <header class="navbar-fixed">
         <nav>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper yellow accent-4 ">
+                
                 <ul>
                     <li>
-                        <a href="/" class="left brand-logo">&nbsp;&nbsp;I'm Cheezey</a>
+                        <a href="/" class="left brand-logo">&nbsp;&nbsp;🧀I'm Cheezey</a>
                     </li>
                 </ul>
                 <ul class="right">
@@ -38,13 +39,13 @@
                     <li><a href="{% url 'login' %}">Log In</a></li>
                     {% endif %}
                   </ul>
-                <ul class="right">
+                <!-- <ul class="right">
                     <li><a href="{% url 'about' %}">About</a></li>
                     <li><a href="{% url 'index' %}">View All The Cheezes</a></li>
                     <li><a href="{% url 'cheeses_create' %}">Add A Cheeze </a></li>
                     <li><a href="{% url 'dishes_create' %}">Add Your Dish</a></li>
                     <li><a href="{% url 'dishes_index' %}">View All Dishes</a></li>
-                </ul>
+                </ul> -->
             </div>
         </nav>
     </header>
@@ -53,7 +54,7 @@
         
         {% endblock %}
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer yellow accent-4">
         <div class="right">
             All Rights Reserved, &copy; 2022 I'm Cheezey &nbsp;
         </div>
