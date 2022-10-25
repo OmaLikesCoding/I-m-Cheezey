@@ -17,7 +17,7 @@
 <body class="full site">
     <header class="navbar-fixed">
         <nav>
-            <div class="nav-wrapper yellow accent-4 ">
+            <div class="nav-wrapper red darken-4 ">
                 
                 <ul>
                     <li>
@@ -34,7 +34,7 @@
                     <li><a href="{% url 'index' %}">View All The Cheezes</a></li>
                     <li><a href="{% url 'logout' %}">Log Out</a></li>
                     {% else %}
-                    <li><a href="{% url 'login' %}">Log In</a></li>
+                    <!-- <li><a href="{% url 'login' %}">Log In</a></li> -->
                     <li><a href="{% url 'signup' %}">Sign Up</a></li>
                     <li><a href="{% url 'login' %}">Log In</a></li>
                     {% endif %}
@@ -54,7 +54,7 @@
         
         {% endblock %}
     </main>
-    <footer class="page-footer yellow accent-4">
+    <footer class="page-footer red darken-4">
         <div class="right">
             All Rights Reserved, &copy; 2022 I'm Cheezey &nbsp;
         </div>
