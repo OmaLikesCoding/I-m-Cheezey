@@ -15,7 +15,9 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 - Django
 - Heroku  
 - Python 
-- Photo Embedding  
+- HTML 5
+- CSS
+- Materialize 
 
 ## <a name="features"></a>Features
 - Users can add cheese. wines and favorite dishes to the site. 
