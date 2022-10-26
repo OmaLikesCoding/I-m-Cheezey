@@ -41,7 +41,9 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 
 
 ## <a name="nextsteps"></a>Project Next Steps
-- App will be mobile responsive
+- A model for cheese stores will be added.
+- A resutaunt model directory will be added.
+
 ## <a name="deployment"></a>Deployed Links
 - [Full Site(hosted on Heroku)]([https://im-cheezey.herokuapp.com/](https://im-cheezey.herokuapp.com/))  https://im-cheezey.herokuapp.com/
 
