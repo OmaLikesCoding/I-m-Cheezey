@@ -5,10 +5,18 @@
 
 
 
-body {
-    background-image: url("ImCheezey3.png");
-    background-color: #ffffff;
-    }
+ 
+
+    body {
+        background-image: url(https://mcusercontent.com/2f8927d14f41758bfeba67442/images/b8aca86b-12e0-9e80-1235-32fb8d59027d.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: GillSans, Calibri, Trebuchet, sans-serif;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column; }
+    
 
 
 main {
