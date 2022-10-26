@@ -9,8 +9,7 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 * [Design](#design)
 * [Project Next Steps](#nextsteps)
 * [Deployed App](#deployment)
-* [Our Github Repositories:](#github)
-* [About Oma.Likes.Coding](#team)
+* [About Oma.Likes.Coding](#Developer)
 
 ## <a name="technologiesused"></a>Technologies Used
 - Django
@@ -42,4 +41,7 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 ## <a name="nextsteps"></a>Project Next Steps
 - App will be mobile responsive
 ## <a name="deployment"></a>Deployed Links
-- [Full Site(hosted on Heroku)]([https://vibe-voyage.herokuapp.com/notes/](https://im-cheezey.herokuapp.com/))  
+- [Full Site(hosted on Heroku)]([https://im-cheezey.herokuapp.com/](https://im-cheezey.herokuapp.com/))  
+
+## <a name="Developer"></a>About Oma.Likes.Coding
+-Oma likes codiding is a full stack developet that creates meaningfull yet relatable projects. 
