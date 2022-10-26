@@ -25,7 +25,7 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 
 
 ## Trello Planning
-[Oma.Likes.Coding Trello Board](https://trello.com/b/MJGmvdjN/im-cheezey)
+[Oma.Likes.Coding Trello Board](https://trello.com/b/MJGmvdjN/im-cheezey) https://trello.com/b/MJGmvdjN/im-cheezey
 
 ## Wireframe
 [Oma.LikesCoding Wireframe]([https://trello.com/1/cards/6335ab1d9ef33e030b3094ec/attachments/6335ab1d9ef33e030b309506/previews/6335ab1e9ef33e030b309513/download/image.png](https://trello.com/b/MJGmvdjN/im-cheezey))
@@ -43,7 +43,7 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 ## <a name="nextsteps"></a>Project Next Steps
 - App will be mobile responsive
 ## <a name="deployment"></a>Deployed Links
-- [Full Site(hosted on Heroku)]([https://im-cheezey.herokuapp.com/](https://im-cheezey.herokuapp.com/))  
+- [Full Site(hosted on Heroku)]([https://im-cheezey.herokuapp.com/](https://im-cheezey.herokuapp.com/))  https://im-cheezey.herokuapp.com/
 
 ## <a name="Developer"></a>About Oma.Likes.Coding
 -Oma likes codiding is a full stack developet that creates meaningfull yet relatable projects. 
