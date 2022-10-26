@@ -20,8 +20,8 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 - Materialize 
 
 ## <a name="features"></a>Features
-- Users can add cheese. wines and favorite dishes to the site. 
-- Users can edit thier create, read, update and their delete entries.  
+- Users can add cheese, wines, and their favorite dishes to the site. 
+- Users can edit create, read, update and  delete their entries.  
 
 
 ## Trello Planning
