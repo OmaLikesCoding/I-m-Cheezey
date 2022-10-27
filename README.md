@@ -1,4 +1,4 @@
-# Im Cheezey
+# Im Cheezey https://im-cheezey.herokuapp.com/
 ![ImCheezey1 (8 × 4 in)](https://user-images.githubusercontent.com/77770242/197863676-796b6d87-d92f-4696-820e-7c1845fb1e7c.gif)
 
 I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in you. Users will be able enjoy and utilize the full functionality of our Django Powered App. From your favorite cheezey dishes to the wines that go with them, you can now add and organize your cheezey love. Be cheezey with us here at I'm Cheezey <3 
@@ -9,22 +9,23 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 * [Design](#design)
 * [Project Next Steps](#nextsteps)
 * [Deployed App](#deployment)
-* [Our Github Repositories:](#github)
-* [About Oma.Likes.Coding](#team)
+* [About Oma.Likes.Coding](#Developer)
 
 ## <a name="technologiesused"></a>Technologies Used
 - Django
 - Heroku  
 - Python 
-- Photo Embedding  
+- HTML 5
+- CSS
+- Materialize 
 
 ## <a name="features"></a>Features
-- Users can add cheese. wines and favorite dishes to the site. 
-- Users can edit thier create, read, update and their delete entries.  
+- Users can add cheese, wines, and their favorite dishes to the site. 
+- Users can edit create, read, update and  delete their entries.  
 
 
 ## Trello Planning
-[Oma.Likes.Coding Trello Board](https://trello.com/b/MJGmvdjN/im-cheezey)
+[Oma.Likes.Coding Trello Board](https://trello.com/b/MJGmvdjN/im-cheezey) https://trello.com/b/MJGmvdjN/im-cheezey
 
 ## Wireframe
 [Oma.LikesCoding Wireframe]([https://trello.com/1/cards/6335ab1d9ef33e030b3094ec/attachments/6335ab1d9ef33e030b309506/previews/6335ab1e9ef33e030b309513/download/image.png](https://trello.com/b/MJGmvdjN/im-cheezey))
@@ -40,6 +41,11 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 
 
 ## <a name="nextsteps"></a>Project Next Steps
-- App will be mobile responsive
+- A model for cheese stores will be added.
+- A resutaunt model directory will be added.
+
 ## <a name="deployment"></a>Deployed Links
-- [Full Site(hosted on Heroku)]([https://vibe-voyage.herokuapp.com/notes/](https://im-cheezey.herokuapp.com/))  
+- [Full Site(hosted on Heroku)]([https://im-cheezey.herokuapp.com/](https://im-cheezey.herokuapp.com/))  https://im-cheezey.herokuapp.com/
+
+## <a name="Developer"></a>About Oma.Likes.Coding
+-Oma likes codiding is a full stack developet that creates meaningfull yet relatable projects. 
