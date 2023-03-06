@@ -15,6 +15,7 @@ I'm Cheezey is a interacvtive digital platform for the wine and cheese lover in 
 - Django
 - Heroku  
 - Python 
+- Postgres SQL
 - HTML 5
 - CSS
 - Materialize 
